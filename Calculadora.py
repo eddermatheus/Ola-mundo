@@ -1,6 +1,6 @@
 n1 = float(input("Digite o primeiro número: "))
 n2 = float(input("Digite o segundo número: "))
-operacao = input('Digite a operacao')
+operacao = input('Digite a operacao: ')
 match operacao:
     case "+":
         resultado = n1 + n2
